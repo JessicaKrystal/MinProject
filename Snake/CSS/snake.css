@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+body{
+    text-align: center;
+    padding-top: 50px;
+    }
+body #container{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    }
+body #container .row{
+    display: flex;
+    }
+body #container .row div{
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    }
+body #container .row div.snake{
+    background-color: #26376b;
+    }
+body #container .row div.food{
+    background-color: #ec3d4c;
+    }
